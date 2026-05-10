@@ -998,13 +998,12 @@ function toast(msg, duration=2500) {
 // ─── START ────────────────────────────────────────────────
 init();
 </script>
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
 </body>
 </html>
-Concluído
-Agora cola todo esse código no editor do GitHub. Depois:
 
-1. Rola a página até o fim 2. Clica no botão verde "Commit changes..." 3. Na janela que aparecer, clica em "Commit changes" novamente
 
-Me manda print quando commitar! 📸
 
 
